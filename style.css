@@ -1,0 +1,809 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* -- ---------------------------------------NAVBAR----------------------------------------- -- */
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(49, 17, 113);
+    border-bottom: 1px solid white;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+#navbar-logo {
+    margin: 8px 60px;
+    color: white;
+}
+
+#navbar-ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.navbar-li {
+    list-style: none;
+    margin: 2px 15px;
+}
+
+.navbar-li-elements {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar-li-elements:hover {
+    color: grey;
+}
+
+#navbar-contact {
+    color: white;
+    margin: 0px 60px;
+}
+
+.navbar-contact-logo {
+    margin: 0px 10px;
+    width: 15px;
+    height: 18px;
+}
+
+#hamburger {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    display: none;
+}
+
+#hamburger div {
+    width: 30px;
+    height: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+
+
+/* -- ---------------------------------------SECTION 1----------------------------------------- -- */
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, rgb(49, 17, 113), rgb(49, 17, 113), black, black, black);
+}
+
+#div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#section1-div1 {
+    display: flex;
+    margin: 20px 60px;
+}
+
+#section1-div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#solana-logo {
+    width: 70px;
+}
+
+#btn-discover {
+    width: 150px;
+    height: 30px;
+    margin: 0px 40px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgb(49, 17, 113), rgb(49, 17, 113), black, black, black);
+}
+
+#section1-h1 {
+    font-size: 65px;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+#section1-h2 {
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+#section1-p1 {
+    margin: 5px 60px;
+    font-size: 12px;
+    width: 500px;
+}
+
+#img1 {
+    width: 470px;
+}
+
+
+
+/* -- ---------------------------------------SECTION 2----------------------------------------- -- */
+#section2 {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section2 span {
+    margin: 10px 10px;
+}
+
+.globe {
+    width: 30px;
+}
+
+
+
+/* -- ---------------------------------------SECTION 3----------------------------------------- -- */
+#section3 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom left, rgb(49, 17, 113), black, black);
+}
+
+#section3-div1 {
+    width: 600px;
+    margin: 100px 0px;
+}
+
+#section3-h1 {
+    font-size: 65px;
+    width: 500px;
+}
+
+#img2 {
+    width: 300px;
+}
+
+#rec1 {
+    width: 300px;
+    position: absolute;
+    right: 5%;
+}
+
+
+
+/* -- ---------------------------------------SECTION 4----------------------------------------- -- */
+#section4 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, black, black, rgb(49, 17, 113), black, black);
+}
+
+#section4-div1 {
+    display: flex;
+}
+
+#section4-div2 {
+    display: flex;
+}
+
+#img3,
+#img4,
+#img5,
+#img6 {
+    width: 100px;
+    margin: 15px;
+}
+
+#img3-div div {
+    margin: 0px 15px;
+}
+
+#img3-div {
+    margin: 0px 0px;
+    height: 185px;
+    border: 1px solid white;
+    border-top: 0;
+    border-right: 0;
+}
+
+#img5-div div {
+    margin: 0px 15px;
+}
+
+#img5-div {
+    margin: 0px 0px;
+    height: 185px;
+    border: 1px solid white;
+    border-top: 0;
+    border-right: 0;
+}
+
+#img4-div div {
+    margin: 0px 15px;
+}
+
+#img4-div {
+    margin: 40px 20px;
+    border: 1px solid white;
+    border-top: 0;
+    border-right: 0;
+}
+
+#img6-div div {
+    margin: 0px 15px;
+}
+
+#img6-div {
+    margin: 40px 20px;
+    border: 1px solid white;
+    border-top: 0;
+    border-right: 0;
+}
+
+.solana {
+    width: 10px;
+
+}
+
+#section4-div3 {
+    width: 500px;
+    margin: 80px 0px;
+}
+
+#section4-h1 {
+    font-size: 65px;
+    width: 500px;
+}
+
+#btn-explore {
+    width: 170px;
+    height: 30px;
+    margin: 30px 40px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgb(49, 17, 113), rgb(49, 17, 113), black, black, black);
+}
+
+
+/* -- ---------------------------------------SECTION 5----------------------------------------- -- */
+#section5 {
+    background-color: black;
+    background-image: linear-gradient(to top left, rgb(49, 17, 113), black, black, black);
+}
+
+#section5-h1 {
+    font-size: 65px;
+    width: 568px;
+    margin: 0px 30px;
+}
+
+#section5-divmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 30px 30px;
+}
+
+#section5-div1,
+#section5-div2,
+#section5-div3 {
+    width: 350px;
+    margin: 5px 2px;
+}
+
+
+/* -- ---------------------------------------MEDIA QUERY----------------------------------------- -- */
+@media screen and (max-width:1060px) {
+    #img1 {
+        width: 300px;
+        height: 400px;
+    }
+
+    #section1-h1 {
+        font-size: 40px;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    #section1-h2 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    #section1-p1 {
+        font-size: 10px;
+        width: 300px;
+        margin: 5px 30px;
+    }
+
+    #section1-div1 {
+        margin: 20px 30px;
+    }
+
+    #section1-div2 {
+        font-size: 10px;
+    }
+
+    #solana-logo {
+        width: 50px;
+    }
+
+    #btn-discover {
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+    }
+
+
+
+    #section2 span {
+        font-size: 10px;
+    }
+
+
+
+    #section3-div1 {
+        width: 300px;
+        margin: 100px 10px;
+    }
+
+    #section3-h1 {
+        font-size: 40px;
+        width: 300px;
+    }
+
+    #section3-p1 {
+        font-size: 10px;
+    }
+
+    #img2 {
+        width: 200px;
+    }
+
+    #rec1 {
+        width: 200px;
+    }
+
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+        width: 70px;
+        margin: 8px;
+    }
+
+    #img3-div {
+        height: 115px;
+        font-size: 8px;
+    }
+
+    #img5-div {
+        height: 115px;
+        font-size: 8px;
+    }
+
+    #img4-div {
+        font-size: 8px;
+    }
+
+    #img6-div {
+        font-size: 8px;
+    }
+
+    .solana {
+        width: 8px;
+
+    }
+
+    #section4-div3 {
+        width: 300px;
+    }
+
+    #section4-h1 {
+        font-size: 40px;
+        width: 200px;
+    }
+
+    #section4-p1 {
+        font-size: 10px;
+    }
+
+    #btn-explore {
+        font-size: 8px;
+        width: 120px;
+    }
+    
+    #section5-h1 {
+        font-size: 40px;
+        width: 500px;
+    }
+
+    #section5-div1 {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    #section5-div2 {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    #section5-div3 {
+        width: 200px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:842px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navba-logo1 {
+        text-align: center;
+    }
+
+    #navbar-ul {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+
+    #navbar-contact {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:665px) {
+
+
+    #img1 {
+        width: 200px;
+        height: 300px;
+    }
+
+    #section1-h1 {
+        font-size: 25px;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    #section1-h2 {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    #section1-p1 {
+        font-size: 8px;
+        width: 150px;
+        margin: 5px 30px;
+    }
+
+    #section1-div1 {
+        margin: 20px 30px;
+    }
+
+    #section1-div2 {
+        font-size: 8px;
+    }
+
+    #solana-logo {
+        width: 50px;
+    }
+
+    #btn-discover {
+        font-size: 6px;
+        width: 60px;
+        height: 20px;
+    }
+
+
+
+    #section2 span {
+        font-size: 8px;
+    }
+
+    .globe {
+        width: 15px;
+    }
+
+
+
+    #section3-div1 {
+        width: 200px;
+        margin: 100px 10px;
+    }
+
+    #section3-h1 {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    #section3-p1 {
+        font-size: 8px;
+    }
+
+    #img2 {
+        width: 150px;
+    }
+
+    #rec1 {
+        width: 150px;
+    }
+
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+        width: 50px;
+        margin: 3px;
+    }
+
+    #img3-div {
+        height: 80px;
+        font-size: 6px;
+    }
+
+    #img5-div {
+        height: 80px;
+        font-size: 6px;
+    }
+
+    #img4-div {
+        font-size: 6px;
+    }
+
+    #img6-div {
+        font-size: 6px;
+    }
+
+    .solana {
+        width: 6px;
+
+    }
+
+    #section4-div3 {
+        width: 300px;
+    }
+
+    #section4-h1 {
+        font-size: 30px;
+        width: 200px;
+    }
+
+    #section4-p1 {
+        font-size: 8px;
+    }
+
+    #btn-explore {
+        font-size: 6px;
+        width: 80px;
+    }
+
+
+
+    #section5-h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    #section5-div1 {
+        width: 150px;
+        font-size: 8px;
+    }
+
+    #section5-div2 {
+        width: 150px;
+        font-size: 8px;
+    }
+
+    #section5-div3 {
+        width: 150px;
+        font-size: 8px;
+    }
+
+}
+
+
+@media screen and (max-width:535px) {
+    #section2 span {
+        font-size: 6px;
+    }
+
+    .globe {
+        width: 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+
+    #img1 {
+        width: 120px;
+        height: 275px;
+    }
+
+    #section1-h1 {
+        font-size: 15px;
+        margin-top: 100px;
+        margin-left: 10px;
+        width: 150px;
+    }
+
+    #section1-h2 {
+        font-size: 10px;
+        margin-left: 10px;
+        width: 150px;
+    }
+
+
+    #section1-p1 {
+        font-size: 6px;
+        width: 150px;
+        margin: 5px 10px;
+        margin-right: 0px;
+    }
+
+    #section1-div1 {
+        margin: 20px 10px;
+    }
+
+    #section1-div2 {
+        font-size: 8px;
+    }
+
+    #solana-logo {
+        width: 50px;
+    }
+
+    #btn-discover {
+        font-size: 5px;
+        width: 60px;
+        height: 20px;
+        margin: 0px 10px;
+    }
+
+
+
+    #section2 span {
+        font-size: 5px;
+    }
+
+    .globe {
+        display: none;
+    }
+
+
+
+    #section3-div1 {
+        width: 100px;
+        margin: 100px 10px;
+    }
+
+    #section3-h1 {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    #section3-p1 {
+        font-size: 6px;
+    }
+
+    #img2 {
+        width: 100px;
+    }
+
+    #rec1 {
+        width: 100px;
+    }
+
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+        width: 30px;
+        margin: 3px;
+    }
+
+    #img3-div {
+        height: 55px;
+        font-size: 4px;
+    }
+
+    #img5-div {
+        height: 55px;
+        font-size: 4px;
+    }
+
+    #img4-div {
+        font-size: 4px;
+        margin: 20px 10px;
+    }
+
+    #img6-div {
+        font-size: 4px;
+        margin: 20px 10px;
+    }
+
+    .solana {
+        width: 4px;
+
+    }
+
+    #section4-div3 {
+        width: 100px;
+        margin: 10px 0px;
+    }
+
+    #section4-h1 {
+        font-size: 20px;
+        width: 100px;
+    }
+
+    #section4-p1 {
+        font-size: 6px;
+    }
+
+    #btn-explore {
+        font-size: 6px;
+        width: 80px;
+        height: 20px;
+        margin: 10px 5px;
+    }
+
+
+
+    #section5-h1 {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    #section5-div1 {
+        width: 80px;
+        font-size: 6px;
+    }
+
+    #section5-div2 {
+        width: 80px;
+        font-size: 6px;
+    }
+
+    #section5-div3 {
+        width: 80px;
+        font-size: 6px;
+    }
+
+}
